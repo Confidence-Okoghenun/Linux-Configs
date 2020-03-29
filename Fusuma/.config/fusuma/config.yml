@@ -1,0 +1,19 @@
+swipe:
+  4:
+    left:
+      command: 'xdotool key super'
+    right:
+      command: 'xdotool key super'
+    up:
+      command: 'workspace-switcher Up'
+    down:
+      command: 'workspace-switcher Down'
+
+threshold:
+  swipe: 1
+  pinch: 1
+
+interval:
+  swipe: 1
+  pinch: 1
+
